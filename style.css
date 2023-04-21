@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+html, body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.menu {
+	background: white;
+	height: 20%;
+}
+
+.logo {
+	background: white;
+	height: 40%;
+}
+
+.nav {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin-top: 1.75%;
+	margin-right: 1.5%;
+	float: right;
+	font-size: 14px;
+}
+
+.perfil, .dots {
+	margin-top: 1%;
+	margin-right: 1%;
+	border-radius: 25px;
+	float: right;
+}
+
+.google {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 20%;
+}
+
+.form {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 10px 40px 10px 10px;
+}
+
+.input {
+	border-width: 0.5px;
+	border-radius: 25px;
+	border-color: lightgray;
+	background: transparent;
+	padding: 9px 4px 9px 40px;;
+	background-image: url("lib/search.jpg"), url("lib/image.jpg"),
+		url("lib/voice.jpg"), url("lib/teclado.jpg");
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-position: 10px center, right 10px center, right 40px center,
+		right 70px center;
+	background-size: 25px
+}
+
+.botoes {
+	align-content: center;
+	height: 30%;
+}
+
+.button {
+	padding: 10px;
+	border-width: 0px;
+	margin-right: 1%;
+	margin-top: 1%;
+	margin-left: 1%;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 480px) {
+			.menu, .logo {
+				height: 10%;
+			}
+			.nav {
+			  
+				margin-top: 7.5%;
+				margin-right: 2%;
+				text-align: right;
+			}
+			.perfil, .dots {
+			    
+				margin: 5% auto;
+				margin-right: 2%;
+			}
+			.google {
+			    margin-top: 15%;
+				max-width: 30%;
+			}
+			.form {
+				width: 70%;
+			}
