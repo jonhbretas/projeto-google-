@@ -58,8 +58,8 @@ html, body {
 	border-color: lightgray;
 	background: transparent;
 	padding: 9px 4px 9px 40px;;
-	background-image: url("search.jpg"), url("image.jpg"),
-		url("voice.jpg"), url("teclado.jpg");
+	background-image: url("lib/search.jpg"), url("lib/image.jpg"),
+		url("lib/voice.jpg"), url("lib/teclado.jpg");
 	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 	background-position: 10px center, right 10px center, right 40px center,
 		right 70px center;
